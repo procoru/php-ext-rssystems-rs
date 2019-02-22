@@ -1,0 +1,11 @@
+[package]
+name = "rssystems"
+version = "0.1.0"
+authors = ["Vyacheslav Shindin <vyacheslav.shindin@gmail.com>"]
+
+[dependencies]
+libc = "0.2.43"
+
+[lib]
+name = "rssystems"
+crate-type = ["cdylib"]
